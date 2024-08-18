@@ -1,0 +1,25 @@
+<div class="relative min-h-screen overflow-hidden bg-center bg-cover px-4 md:px-12 lg:px-20 py-1">
+            <div class="absolute top-0 left-0 w-full h-full">
+                <video autoplay loop muted src="./videos/videoplayback.mp4" class="w-full h-full object-cover max-w-full"></video>
+            </div>
+            <div class="relative z-10">
+                <nav class="flex items-center flex-wrap">
+                    <!-- logo -->
+                    <img class="w-40 cursor-pointer" src="./images/png-transparent-b-m-hd-logo-removebg-preview.png" alt="">
+                    <ul class="flex-1 text-right flex flex-wrap justify-center md:justify-end hidden md:flex md:px-4 lg:px-5">
+                        <li class="list-none inline-block px-3 md:px-5"><a class="no-underline text-white px-2 text-xl font-semibold" href="">Home</a></li>
+                        <li class="list-none inline-block px-3 md:px-5"><a class="no-underline text-white px-2 text-xl font-semibold" href="">About</a></li>
+                        <li class="list-none inline-block px-3 md:px-5"><a class="no-underline text-white px-2 text-xl font-semibold" href="">Features</a></li>
+                        <li class="list-none inline-block px-3 md:px-5"><a class="no-underline text-white px-2 text-xl font-semibold" href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="text-white mt-12 md:mt-24">
+                    <h1 class="text-4xl md:text-7xl font-semibold leading-normal">Groceries <br>Delivery in 15 minutes</h1>
+                    <p class="max-w-xl md:max-w-2xl text-white mt-4">Grocify offers a wide range of products, including fresh products, meats, dairy, baked goods, and non-perishable items.</p>
+                    <div class="mt-8">
+                        <a class="bg-orange-400 hover:bg-blue-500 rounded-3xl py-3 px-8 font-semibold mr-4 inline-block" href="">Order Now</a>
+                        <a class="bg-red-400 rounded-3xl py-3 px-8 font-semibold mr-4 inline-block" href="">Download App</a>
+                    </div>
+                </div>
+            </div>
+        </div>
